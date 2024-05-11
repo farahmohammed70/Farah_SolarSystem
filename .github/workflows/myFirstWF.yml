@@ -5,8 +5,8 @@ push:
     - main
 
 jobs:
-  First:
-  runs-on: ubuntu-latest
-    steps:
-    - name: printMsg
-      run: echo "Farah"
+    First:
+      runs-on: ubuntu-latest
+      steps:
+      - name: printMsg
+        run: echo "Farah"
