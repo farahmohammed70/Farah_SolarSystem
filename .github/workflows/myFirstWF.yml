@@ -1,12 +1,13 @@
-name: myFirstWF
+name: firstflow
+
 on:
-push:
-  branches:
-    - main
+  push:
+    branches:
+      - main 
 
 jobs:
-    First:
-      runs-on: ubuntu-latest
-      steps:
-      - name: printMsg
+  First:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message 
         run: echo "Farah"
