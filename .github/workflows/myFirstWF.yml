@@ -1,0 +1,10 @@
+name: myFirstWF
+on:
+push:
+
+jobs:
+  First:
+    runs-on: ubuntu-latest
+    steps:
+    - name: printMsg
+      run: echo "Farah"
